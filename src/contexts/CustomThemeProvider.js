@@ -30,7 +30,7 @@ const CustomThemeProvider = (props) => {
   return (
     <div>
       <CustomThemeContext.Provider value={contextValue}>
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={{ ...theme }}>
           <Paper style={paperStyle}>
             {children}
           </Paper>

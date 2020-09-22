@@ -8,9 +8,8 @@ import Typography from '@material-ui/core/Typography';
 import BurgerButton from './components/BurgerButton';
 import StarButton from './components/StarButton';
 import Switch from '@material-ui/core/Switch';
-import Button from '@material-ui/core/Button';
-import AddCircleIcon from '@material-ui/icons/AddCircle';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
+import MemoDetails from './components/MemoDetails';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -40,17 +39,6 @@ export default function App() {
     }
   }
 
-  /*
-  switch (checked) {
-    case 'darkTheme':
-      return setTheme('darkTheme');
-    case 'normalTheme':
-      return setTheme('normalTheme');
-    default:
-      return null;
-  }
-  */
-
   return (
     <div className="App">
       <div className={classes.root}>
@@ -69,9 +57,7 @@ export default function App() {
             <StarButton />
           </Toolbar>
         </AppBar>
-        <Button>
-          <AddCircleIcon />
-        </Button>
+        <MemoDetails />
       </div>
     </div>
   );
