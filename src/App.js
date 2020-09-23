@@ -9,6 +9,7 @@ import BurgerButton from './components/BurgerButton';
 import StarButton from './components/StarButton';
 import Switch from '@material-ui/core/Switch';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
+import MemoBody from './components/MemoBody';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -56,7 +57,7 @@ export default function App() {
             <StarButton />
           </Toolbar>
         </AppBar>
-
+        <MemoBody />
       </div>
     </div>
   );
