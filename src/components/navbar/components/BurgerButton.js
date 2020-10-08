@@ -6,7 +6,6 @@ import List from '@material-ui/core/List';
 import Tooltip from '@material-ui/core/Tooltip';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import Divider from '@material-ui/core/Divider';
 
 function ListItemLink(props) {
   return <ListItem button component="a" {...props} />;
@@ -37,10 +36,6 @@ export default function BurgerButton() {
         onClose={handleClose}
       >
         <List onClick={handleClose} component="nav" aria-label="main mailbox folders">
-          <ListItem button>
-            <ListItemText primary="Trash" />
-          </ListItem>
-          <Divider />
           <List component="nav" aria-label="secondary mailbox folders">
             <ListItemLink href="#simple-list">
               <ListItemText primary="Settings" />
