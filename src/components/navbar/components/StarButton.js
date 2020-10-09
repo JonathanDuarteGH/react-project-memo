@@ -22,7 +22,7 @@ export default function StarButton() {
 
   return (
     <div>
-      <Tooltip title="Memo to PDF">
+      <Tooltip title="Memo to CSV">
         <Button color="inherit" onClick={handleClickOpen}>
           <GradeIcon />
         </Button>
@@ -33,10 +33,10 @@ export default function StarButton() {
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
       >
-        <DialogTitle id="alert-dialog-title">{"Onsite memo to PDF coming soon"}</DialogTitle>
+        <DialogTitle id="alert-dialog-title">{"To export data table..."}</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            It is with great excitement that we announce our upcoming software Text to PDF. Soon you can save all your precious data into one single PDF document within your computer.
+            To save the data table as CSV, please click on the 'Export' button.
           </DialogContentText>
         </DialogContent>
         <DialogActions>
