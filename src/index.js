@@ -1,16 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './assets/index.css';
+import App from './components/app/App';
 import * as serviceWorker from './serviceWorker';
-import CustomThemeProvider from './contexts/CustomThemeProvider';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <CustomThemeProvider>
-      <App />
-    </CustomThemeProvider>
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
 
