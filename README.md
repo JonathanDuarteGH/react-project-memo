@@ -1,3 +1,49 @@
+# React Memo App Project
+
+- This is a repo specifically made to view or clone the source code at its entirety.
+
+## Getting Started
+
+- In order to get a copy of the website up and running on your local machine, follow these instructions.
+
+### Installing
+
+1. Clone the repo
+
+```
+git clone https://github.com/JonathanDuarteGH/react-project-memo.git
+```
+
+2. Open up the terminal and navigate your way towards the `src` file of the folder. Any terminal will do.
+
+3. Explore the website using,
+```
+npm start
+```
+
+## Built With
+
+* [React.js](https://reactjs.org/)
+* [Material-UI](https://material-ui.com/)
+* [Javascript](https://www.javascript.com/)
+* CSS3
+
+## Website Hosted On
+
+* [Firebase](https://www.netlify.com/)
+
+## License
+
+This project is subjected to the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+This project used the following packages to finish exporting the input data
+
+* [UseHooks.com](https://usehooks.com/)
+* [npm xlsx file-saver](https://www.npmjs.com/package/file-saver)
+* [npm shortid](https://www.npmjs.com/package/shortid)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
