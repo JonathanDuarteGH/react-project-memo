@@ -30,7 +30,7 @@ npm start
 
 ## Website Hosted On
 
-* [Firebase](https://www.netlify.com/)
+* [Firebase](https://react-project-memo.web.app/)
 
 ## License
 
