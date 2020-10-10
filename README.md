@@ -1,5 +1,9 @@
 # React Memo App Project
 
+- This project is intended to gather all user data related to job search and export them as an excel file. It also has a dark mode feature for those sensitive to brightness.
+
+![Memo App](Memo-App-Gif.gif)
+
 - This is a repo specifically made to view or clone the source code at its entirety.
 
 ## Getting Started
@@ -38,8 +42,9 @@ This project is subjected to the MIT License - see the [LICENSE.md](LICENSE.md) 
 
 ## Acknowledgments
 
-This project used the following packages to finish exporting the input data
+This project used the following packages to host data in tabular form and finish exporting input data
 
+* [Formik](https://formik.org/)
 * [UseHooks.com](https://usehooks.com/)
 * [npm xlsx file-saver](https://www.npmjs.com/package/file-saver)
 * [npm shortid](https://www.npmjs.com/package/shortid)
