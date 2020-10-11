@@ -1,12 +1,57 @@
 # React Memo App Project
 
-- This project is intended to gather all user data related to job search and export them as an excel file. It also has a dark mode feature for those sensitive to brightness.
+- This project is designed to gather private user data related job searches and export them as an excel file. It also has a dark mode feature for those sensitive to brightness.
 
 ![Memo App](Memo-App-Gif.gif)
 
-- This is a repo specifically made to view or clone the source code at its entirety.
+## Folder Structure
+
+```
+| src
+  | assets
+    || index.css
+  | components
+    | app
+      || App.js
+    | memos
+      | components
+        || ExportCSV.js
+        || MemoField.js
+        || MemoForm.js
+        || MemoInput.js
+        || MemoTable.js
+      | store
+        || Store.js
+      || MemoBody.js
+    | navbar
+      || BurgerButton.js
+      || StartButton.js
+    | themes
+      || Theme.js
+  | hooks
+    || useLocalStorage
+  || index.js
+```
+
+## Component Tree
+
+```
+| ThemeProvider (|| withTheme)
+  | Context.Provider (|| withProvider)
+    || Navbar.js
+      || BurgerButton.js
+      || StarButton.js
+    || MemoBody.js
+      || ExportCSV.js
+      || MemoField.js
+      || MemoForm.js
+      || MemoInput.js
+      || MemoTable.js
+```
 
 ## Getting Started
+
+- This is a repo specifically made to view or clone the source code at its entirety.
 
 - In order to get a copy of the website up and running on your local machine, follow these instructions.
 
