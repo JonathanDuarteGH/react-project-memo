@@ -38,7 +38,7 @@ export default function BurgerButton() {
         <List onClick={handleClose} component="nav" aria-label="main mailbox folders">
           <List component="nav" aria-label="secondary mailbox folders">
             <ListItemLink href="#simple-list">
-              <ListItemText primary="Settings" />
+              <ListItemText primary="Welcome to the Memo App" />
             </ListItemLink>
           </List>
         </List>
